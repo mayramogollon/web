@@ -1,0 +1,40 @@
+/* CSS para la sección de Agenda de Eventos */
+#events {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+#events h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.event {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.event:last-child {
+    border-bottom: none;
+}
+
+.event h3 {
+    font-size: 20px;
+    color: #0056b3;
+    margin: 0 0 10px;
+}
+
+.event p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 5px 0;
+}
+
+.event p strong {
+    font-weight: bold;
+    color: #333;
+}
